@@ -21,7 +21,9 @@
 }
 .sub-menu{
   grid-column: span 4 / auto;
- 
+  background-image: url("../images/backgrounds/foodsBg.jpg"); 
+  background-repeat: no-repeat;
+  height: 600px;
 }
 .footer-info{
   grid-column: span 4 / auto;
@@ -32,18 +34,26 @@
   grid-row: span 2 / auto;
   background-image: url("../images/foodtop/breakfast.jpg");
   color: white;
-  height: inherit;
+  font-family: 'Noto Serif', serif;
+  height: 200px;
+  text-align: center;
 }
 .lunch{
   grid-row: span 2 / auto;
   background-image: url("../images/foodtop/lunch.jpg");
   color: white;
+  height: 200px;
+  font-family: 'Noto Serif', serif;
+  text-align: center;
  
 }
 .dinner{
   grid-row: span 2 / auto;
   background-image: url("../images/foodtop/dinner.jpg");
   color: white;
+  height: 200px;
+  font-family: 'Noto Serif', serif;
+  text-align: center;
   
 }
 .party-hour{
