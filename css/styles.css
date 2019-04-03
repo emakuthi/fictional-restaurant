@@ -21,30 +21,43 @@
 }
 .sub-menu{
   grid-column: span 4 / auto;
+ 
 }
 .footer-info{
   grid-column: span 4 / auto;
+  background-color: #F15A29;
+  height: 200px;
 }
 .breakfast{
   grid-row: span 2 / auto;
   background-image: url("../images/foodtop/breakfast.jpg");
+  color: white;
+  height: inherit;
 }
 .lunch{
   grid-row: span 2 / auto;
   background-image: url("../images/foodtop/lunch.jpg");
+  color: white;
+ 
 }
 .dinner{
   grid-row: span 2 / auto;
   background-image: url("../images/foodtop/dinner.jpg");
+  color: white;
+  
 }
 .party-hour{
 background-color: #F15A29;
-width: 100px;
-height: 50px;
+/* width: 100px;
+height: 50px; */
+color: white;
+text-align: center;
+font-family: 'Noto Serif', serif;
 }
 .happy-hour{
 background-color: white;
-width: 100px;
-height: 50px;
-align-content: center;
+/* width: 100px;
+height: 50px; */
+text-align: center;
+font-family: 'Noto Serif', serif;
 }
