@@ -2,9 +2,39 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
-.span-col-4{
+.landing{
   grid-column: span 4 / auto;
 }
-.span-row-2{
+.fastfood{
+  grid-column: span 4 / auto;
+}
+.drinks{
+  grid-column: span 4 / auto;
+}
+.subscribe{
+  grid-column: span 4 / auto;
+}
+.customers{
+  grid-column: span 4 / auto;
+}
+.sub-menu{
+  grid-column: span 4 / auto;
+}
+.footer-info{
+  grid-column: span 4 / auto;
+}
+.breakfast{
   grid-row: span 2 / auto;
+}
+.lunch{
+  grid-row: span 2 / auto;
+}
+.dinner{
+  grid-row: span 2 / auto;
+}
+.party-hour{
+
+}
+.happy-hour{
+  
 }
