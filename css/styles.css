@@ -4,6 +4,8 @@
 }
 .landing{
   grid-column: span 4 / auto;
+  background-image: url("../images/backgrounds/landing.jpg");
+  height: 500px;
 }
 .fastfood{
   grid-column: span 4 / auto;
@@ -33,8 +35,8 @@
   grid-row: span 2 / auto;
 }
 .party-hour{
-
+background-color: #F15A29;
 }
 .happy-hour{
-  
+background-color: white;
 }
