@@ -27,16 +27,24 @@
 }
 .breakfast{
   grid-row: span 2 / auto;
+  background-image: url("../images/foodtop/breakfast.jpg");
 }
 .lunch{
   grid-row: span 2 / auto;
+  background-image: url("../images/foodtop/lunch.jpg");
 }
 .dinner{
   grid-row: span 2 / auto;
+  background-image: url("../images/foodtop/dinner.jpg");
 }
 .party-hour{
 background-color: #F15A29;
+width: 100px;
+height: 50px;
 }
 .happy-hour{
 background-color: white;
+width: 100px;
+height: 50px;
+align-content: center;
 }
