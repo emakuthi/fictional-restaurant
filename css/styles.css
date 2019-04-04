@@ -242,9 +242,9 @@ padding: 20px;
   height: 300px;
   color: white;
   align-content: center;
-  padding: 50px;
+  padding: 80px;
 }
-.subscribe form, h4{
-  margin-left: 50%
+.subscribe form, h6{
+  margin-left: 40%
 
 }
