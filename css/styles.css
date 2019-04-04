@@ -27,19 +27,35 @@ font-size: 24px;
 }
 .fastfood{
   grid-column: span 4 / auto;
-}
-
-.grid{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-.span-row-2{grid-row: span 2 / auto;}
-.span-col-3{
-  grid-column: span 3 / auto;
+  height:400px;
 }
 .drinks{
   grid-column: span 4 / auto;
+  height:400px;
+  margin: 50px;
 }
+
+#drinks{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+#drinks-img-1{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+#drinks-img-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-gap: 0px; */
+}
+#drink2{
+  margin-left: 0px;
+}
+#drink1{
+  margin-left: 0px;
+}
+
+
 .subscribe{
   grid-column: span 4 / auto;
 }
