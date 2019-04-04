@@ -2,8 +2,17 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
-.landing{
+/* .landing{
   grid-column: span 4 / auto;
+  
+  height: 500px;
+} */
+.jumbotron {
+  grid-column: span 4 / auto;
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  /* background-color: #e9ecef; */
+  border-radius: 0.3rem;
   background-image: url("../images/backgrounds/landing.jpg");
   height: 500px;
 }
@@ -31,6 +40,7 @@
   height: 200px;
 }
 .breakfast{
+  padding: 40px;
   grid-row: span 2 / auto;
   background-image: url("../images/foodtop/breakfast.jpg");
   color: white;
@@ -39,6 +49,7 @@
   text-align: center;
 }
 .lunch{
+  padding: 40px;
   grid-row: span 2 / auto;
   background-image: url("../images/foodtop/lunch.jpg");
   color: white;
@@ -48,6 +59,7 @@
  
 }
 .dinner{
+  padding: 40px;
   grid-row: span 2 / auto;
   background-image: url("../images/foodtop/dinner.jpg");
   color: white;
