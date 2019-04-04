@@ -224,7 +224,8 @@ padding: 20px;
   border:         none;
   border-left:    1px solid hsla(10, 20%, 50%,10);
   height:         40vh;
-  width:          2px;       
+  width:          2px; 
+  position: relative;      
 }
 .our{
   text-align: center;
@@ -239,4 +240,11 @@ padding: 20px;
   grid-column: span 4 / auto;
   background-image: url("../images/backgrounds/subscribe.jpg");
   height: 300px;
+  color: white;
+  align-content: center;
+  padding: 50px;
+}
+.subscribe form, h4{
+  margin-left: 50%
+
 }
