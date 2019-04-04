@@ -34,6 +34,16 @@ font-size: 24px;
   height:400px;
   margin: 50px;
 }
+#explanation2{
+  text-align: right;
+  margin-right: 30px;
+  padding: 30px;
+}
+#explanation{
+  margin-left: 0px;
+  padding: 30px;
+}
+
 
 #drinks{
   display: grid;
@@ -42,17 +52,30 @@ font-size: 24px;
 #drinks-img-1{
   display: grid;
   grid-template-columns: repeat(1, 1fr);
+  margin-right: 0px;
+  border: solid;
+  width: 500px;
+  
 }
 #drinks-img-2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   /* grid-gap: 0px; */
+  width: 480px;
+
 }
 #drink2{
-  margin-left: 0px;
+  
+  /* background-image: url("../images/drink2.jpg"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 245px;
 }
 #drink1{
-  margin-left: 0px;
+  /* background-image: url("../images/drink1.jpg"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 245px;
 }
 
 
