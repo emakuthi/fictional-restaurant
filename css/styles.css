@@ -7,7 +7,7 @@
   
   height: 500px;
 } */
-.jumbotron {
+.jumbotron{
   grid-column: span 4 / auto;
   padding: 2rem 1rem;
   margin-bottom: 2rem;
