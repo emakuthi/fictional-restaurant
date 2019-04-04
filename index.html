@@ -9,6 +9,8 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="js/responsiveslides.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- <link href="css/css3/bootstrap.css" rel="stylesheet" type="text/css"> -->
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
@@ -16,9 +18,9 @@
     <script src="js/scripts.js"></script>
   </head>
   <body>
-  <div class="grid">
+    <div class="grid">
       <div class="jumbotron">
-          <div class="pos-f-t">
+          <!-- <div class="pos-f-t">
               <div class="collapse" id="navbarToggleExternalContent">
                 <div class="bg-dark p-4">
                   <h5 class="text-white h4">Collapsed content</h5>
@@ -30,7 +32,7 @@
                   <span class="navbar-toggler-icon"></span>
                 </button>
               </nav>
-            </div>     
+            </div>      -->
         <img src="images/logoBig.png" alt="" id="logo">
         <p id="motto">We Provide Best Food <br> At The <strong>Right</strong> Price</p>
       </div>
@@ -94,28 +96,33 @@
                 <button class="tablinks" onclick="subMenu(event, 'Tokyo')">Chicken</button>
                 <button class="tablinks" onclick="subMenu(event, 'Tokyo')">Rice</button>
             </div>
-            <div id="London" class="tabcontent">
-              <h3>London</h3>
-              <p>London is the capital city of England.</p>
+            <div id="London">
+              <div id="chickenBurger" class="tabcontent">
+                <img src="images/fastfood/chickenBurger.jpg" alt="">
+                <p>Chicken Burger</p>
+              </div> 
+              <div id="chickenPizza" class="tabcontent">
+                <img src="images/fastfood/chickenPizza.jpg" alt="">
+                <p>Chicken</p> 
+              </div>
+              <div id="beefBurger" class="tabcontent">
+                <img src="images/fastfood/beefBurger.jpg" alt="">
+                <p>Beef Burger</p>
+              </div>
             </div>
-              
-            <div id="Paris" class="tabcontent">
-              <h3>Paris</h3>
-              <p>Paris is the capital of France.</p> 
-            </div>
-            <div id="Tokyo" class="tabcontent">
-              <h3>Tokyo</h3>
-              <p>Tokyo is the capital of Japan.</p>
-            </div>
+          </div>
+          </div>
+        <div class="customers">
+          <div id="customers">
+            <img src="images/customers/p2.png" alt="">
+          </div>
+        </div>
+        <div class="subscribe">
+          Item 11
+        </div>
+        <div class="footer-info">
+          Item 12
+        </div>     
       </div>
-      <div class="customers">
-        Item 10
-      </div>
-      <div class="subscribe">
-        Item 11
-      </div>
-      <div class="footer-info">
-        Item 12
-      </div>
-    </div>  
   </body>
+</html>
