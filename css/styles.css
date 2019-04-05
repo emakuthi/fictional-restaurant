@@ -117,6 +117,7 @@ font-size: 24px;
   grid-column: span 4 / auto;
   background-color: #F15A29;
   height: 300px;
+  font-family: 'Noto Serif', serif;
 }
 .breakfast{
   padding: 80px;
@@ -338,4 +339,7 @@ padding: 20px;
    #copyright{
      margin-top: 40px;
 
+   }
+   #logo-white-text{
+     font-size: 24px;
    }
