@@ -49,7 +49,7 @@ Incase of any issues or feedback please add using any of below links.
 
 ## Support and contact details
 
- Contact me on +254729379639 or on my github account <https://github.com/emakuthi>
+ Contact me on +254722827172 or on my github account <https://github.com/emakuthi>
 
 ### live site link
 
