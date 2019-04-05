@@ -116,7 +116,7 @@ font-size: 24px;
 .footer-info{
   grid-column: span 4 / auto;
   background-color: #F15A29;
-  height: 200px;
+  height: 300px;
 }
 .breakfast{
   padding: 80px;
@@ -257,12 +257,13 @@ padding: 20px;
 .our #our2{
   box-sizing: content-box;
 }
-.col-sm-2{
+/* .col-sm-6{
   color: white;
-}
-.container .row .col-sm-2{
+} */
+.container .row .col-sm-6{
   margin-top: 20px;
-  align-content: center;
+  text-align: center;
+  color: white;
 }
 #burgers{
   margin-top: 10px;
@@ -333,4 +334,8 @@ padding: 20px;
     font-size:24px;
     color:#f15b29;
     transition: .5s;
+   }
+   #copyright{
+     margin-top: 40px;
+
    }
