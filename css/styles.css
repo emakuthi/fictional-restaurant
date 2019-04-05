@@ -229,9 +229,10 @@ padding: 20px;
 }
 .our{
   text-align: center;
-  padding: 30px;
-  margin-left: 50px;
+  padding: 10px;
+  margin-left: 30px;
   font-family: 'Noto Serif', serif;
+  font-size: 14px;
 }
 .our h2{
   color: #F15A29;
@@ -247,4 +248,7 @@ padding: 20px;
 .subscribe form, h6{
   margin-left: 40%
 
+}
+.our #our2{
+  box-sizing: content-box;
 }
