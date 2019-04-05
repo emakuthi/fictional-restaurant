@@ -269,7 +269,23 @@ padding: 20px;
   color: #F15A29;
   text-align: center;
 }
-.pos-f-t{
+/* .pos-f-t{
   width:inherit;
   /* opacity: 0.5; */
-}
+  .pos-f-t{
+    overflow: hidden;
+    /* background-color: #333; */
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+  
+  /* Links inside the navbar */
+  .pos-f-t a{
+    /* float: left; */
+    display: inline-block;
+    color: #F15A29;
+    text-align: left;
+    padding: 5px 5px;
+    text-decoration: none;
+  }
