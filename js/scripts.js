@@ -12,8 +12,15 @@
 //   evt.currentTarget.className += " active";
 // }
 
-function testResults (form) {
-  var TestVar = form.inputbox.value;
+// function testResults (form) {
+//   var TestVar = form.inputbox.value;
+//   alert ("You typed: " + TestVar);
+// }
+
+function readText (form) {
+  TestVar =form.inputbox.value;
   alert ("You typed: " + TestVar);
 }
-
+function writeText (form) {
+  form.inputbox.value = "Have a nice day!"
+}
