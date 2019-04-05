@@ -60,4 +60,4 @@ Incase of any issues or feedback please add using any of below links.
 https://opensource.org/licenses/MIT
 
 
-Copyright (c) 2019 Michael Odongo
+Copyright (c) 2019 Elvis Makuthi
