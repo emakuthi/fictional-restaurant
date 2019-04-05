@@ -2,7 +2,7 @@
 
 #### This is a landing page for a fictional restaurant. It serves the purpose of making my coding skills in HTML, CSS, Javascript, Bootstrap and jQuery known to people around the world. This is currently the only version of the website created.
 
-
+https://github.com/emakuthi/fictional-restaurant/blob/master/images/core.jpg
 
 #### By **Elvis Makuthi**
 
