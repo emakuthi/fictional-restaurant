@@ -44,8 +44,11 @@ font-size: 24px;
   margin-left: 0px;
   /* padding: 30px; */
 }
-
-
+/* #fastfood{
+  display: flex;
+  background-color: white;
+  height: 300px
+} */
 #drinks{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -107,7 +110,7 @@ font-size: 24px;
   background-image: url("../images/backgrounds/foodsBg.jpg"); 
   background-repeat: no-repeat;
   height: 600px;
-  padding: 200px;
+  padding: 50px;
   /* margin-bottom: 100px; */
 }
 .footer-info{
@@ -160,15 +163,17 @@ text-align: center;
 font-family: 'Noto Serif', serif;
 padding: 20px;
 }
-#submenu{
+.submenu #submenu{
   background-color: white; 
-  height: 300px;
-  width: 800px;
-  margin-left: 50px;
-  margin-right: 50px;
+  height: 400px;
+  width: 1000px;
+  margin-left: 30px;
+  margin-right: 30px;
 
 }
-/* Style the tab */
+#submenu .container{
+  background-color: white;
+}
 .tab {
   overflow: hidden;
   border: 1px solid #ccc;
@@ -254,4 +259,13 @@ padding: 20px;
 }
 .col-sm-2{
   color: white;
+}
+.container .row .col-sm-2{
+  margin-top: 20px;
+  align-content: center;
+}
+#burgers{
+  margin-top: 10px;
+  color: #F15A29;
+  text-align: center;
 }

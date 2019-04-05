@@ -51,7 +51,6 @@
       <div class="party-hour">
        <h4> Party Time</h4>
       </div>
-      
       <div class="drinks">
           <div id="drinks">
             <div>
@@ -91,28 +90,35 @@
       <div class="sub-menu">
         <div id="submenu">
             <div class="tab">
-                <button class="tablinks" onclick="subMenu(event, 'London')">Fast Food</button>
+                <button class="tablinks" onclick="subMenu(event, 'fastfood')">Fast Food</button>
                 <button class="tablinks" onclick="subMenu(event, 'Paris')">Drinks</button>
                 <button class="tablinks" onclick="subMenu(event, 'Tokyo')">Chicken</button>
                 <button class="tablinks" onclick="subMenu(event, 'Tokyo')">Rice</button>
             </div>
-            <div id="London">
-              <div id="chickenBurger" class="tabcontent">
-                <img src="images/fastfood/chickenBurger.jpg" alt="">
-                <p>Chicken Burger</p>
-              </div> 
-              <div id="chickenPizza" class="tabcontent">
-                <img src="images/fastfood/chickenPizza.jpg" alt="">
-                <p>Chicken</p> 
+            <!-- <div id="fastfood">     
+            </div> -->
+            <div class="container">
+                <div class="row">
+                  <div class="col-sm-4" id="burgers">
+                      <img src="images/fastfood/chickenBurger.jpg" alt=""><p>Chicken Burger</p>
+                  </div>
+                  <div class="col-sm-4" id="burgers">
+                      <img src="images/fastfood/chickenPizza.jpg" alt=""><p>Chicken</p>
+                  </div>
+                  <div class="col-sm-4"id="burgers">
+                      <img src="images/fastfood/beefBurger.jpg" alt=""><p>Beef Burger</p>
+                  </div>
+                </div>
               </div>
-              <div id="beefBurger" class="tabcontent">
-                <img src="images/fastfood/beefBurger.jpg" alt="">
-                <p>Beef Burger</p>
-              </div>
-            </div>
-          </div>
-          </div>
-        <div class="customers">
+              <!-- </div>  -->
+              <!-- <div id="chickenPizza" class="tabcontent">
+                
+                
+              </div> -->
+              <!-- <div id="beefBurger" class="tabcontent">                     </div> -->
+        </div>
+      </div>
+      <div class="customers">
           <div class="our">
             <div id="our1">
               <h2>Our Happy Customers</h2>
@@ -129,32 +135,32 @@
               <p>Phasellus quis lorem gravida, semper sem sed, eleifend arcu. Aenean ornare turpis in eleifend porttitor.<br> Phasellus rutrum placerat gravida. Aliquam erat volutpat. Curabitur eget convallis turpis, vel rutrum nibh.</p>
             </div>
             </div>
-        </div>
-        <div class="subscribe"> 
+      </div>
+      <div class="subscribe"> 
             <h6>Get our daily food items delivered to your email</h6>
             <form action="/action_page.php">
               <input type="email" name="emailaddress" placeholder="Your Email">
               <input type="submit">
             </form>
-        </div>
-        <div class="footer-info">
-            <div class="container">
-                <div class="row">
-                  <div class="col-sm-5">
-                  </div>
-                  <div class="col-sm-2">
-                      <img src="images/footerlogos/logo_white.png" alt="">MENU
-                      That's what we are
-                      <img src="images/footerlogos/facebook.png" alt="">
-                      <img src="images/footerlogos/twitter.png" alt="">
-                      <img src="images/footerlogos/pinterest.png" alt="">
-                  </div>
-                  <div class="col-sm-5">
-                    One of three columns
-                  </div>
+      </div>
+      <div class="footer-info">
+          <div class="container">
+              <div class="row">
+                <div class="col-sm-5">
+                </div>
+                <div class="col-sm-2">
+                    <img src="images/footerlogos/logo_white.png" alt="">MENU
+                    <p>That's what we are</p>
+                    <img src="images/footerlogos/facebook.png" alt="">
+                    <img src="images/footerlogos/twitter.png" alt="">
+                    <img src="images/footerlogos/pinterest.png" alt="">
+                    <p>2016 Menu Restaurant</p>
+                </div>
+                <div class="col-sm-5">                   
                 </div>
               </div>
-        </div>     
+            </div>
+      </div>     
     </div>
   </body>
 </html>
