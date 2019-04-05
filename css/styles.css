@@ -269,3 +269,7 @@ padding: 20px;
   color: #F15A29;
   text-align: center;
 }
+.pos-f-t{
+  width:inherit;
+  /* opacity: 0.5; */
+}
