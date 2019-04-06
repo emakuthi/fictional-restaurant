@@ -19,7 +19,7 @@
 
 function readText (form) {
   TestVar =form.inputbox.value;
-  alert ("You typed: " + TestVar);
+  alert ("tou have subscribed successfuly");
 }
 function writeText (form) {
   form.inputbox.value = "Have a nice day!"

@@ -147,6 +147,10 @@ font-size: 24px;
   text-align: center;
   
 }
+.dinner:hover, .breakfast:hover, .lunch:hover{
+  color:black;
+  opacity: 0.5;
+}
 .party-hour{
 background-color: #F15A29;
 /* width: 100px;
@@ -163,7 +167,18 @@ height: 50px; */
 text-align: center;
 font-family: 'Noto Serif', serif;
 padding: 20px;
+text-decoration: none;
 }
+/* .happy-hour:hover{
+  background-color: #F15A29;
+  color:white;
+  
+} */
+/* .party-hour:hover{
+  background-color: white;
+  color: black;
+  
+} */
 .submenu #submenu{
   background-color: white; 
   height: 400px;
